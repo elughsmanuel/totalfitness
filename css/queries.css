@@ -1,0 +1,297 @@
+/* -- MEDIA QUERY -- */
+
+/* -- SMALL DESKTOP -- */
+@media only screen and (max-width: 1200px) {
+    .box {
+        padding: 0 2%;
+    }
+    .popup-content {
+        width: 80%;
+    }
+}
+
+
+/* -- BIG TABLET -- */
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 56.25%;
+    }
+    .main-nav li {
+        margin-left: 3.5rem;
+    }
+    .facility-content div {
+        width: 100%;
+    }
+    .popup-content {
+        width: 85%;
+    }
+    .form-btn-con .btn {
+        margin: 0 2rem;
+    }
+}
+
+
+/* -- SMALL TABLET -- */
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+    section {
+        padding: 6rem 0;
+    }
+    .box {
+        padding: 0 3%;
+        flex-direction: column;
+    }
+    .box-top {
+        order: 0;
+    }
+    .box-bottom {
+        order: 1;
+    }
+
+    .box-1-of-4 {
+        flex-basis: 48.5%;
+    }
+
+    .text-box {
+        transform: translate(-25%, -60%) rotate(-90deg);
+    }
+    .heading-secondary {
+        margin-bottom: 5rem;
+    }
+    .heading-secondary h2 {
+        font-size: 3rem;
+    }
+    .section-paragraph {
+        width: 70%;
+        padding: 0 1rem;
+    }
+    .facility-content div {
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+    .facility-image {
+        margin-bottom: 3rem;
+    }
+    .section-services .box {
+        margin-bottom: 7rem;
+    }
+    .services-image {
+        margin-bottom: 3rem;
+    }
+    .register-content {
+        margin-bottom: 3rem;
+    }
+    .gallery-box-item {
+        height: 20rem;
+    }
+    .gallery-img {
+        transform: scale(1);
+    }
+    .gallery-caption {
+        font-size: 1.5rem;
+    }
+    .item-three {
+        height: 42rem;
+    }
+    .section-bmi .form {
+        width: 60%;
+    }
+    .footer-box {
+        flex-direction: column;
+    }
+    .footer-box-1-of-2:first-child {
+        margin-bottom: 3rem;
+    }
+    .footer-list {
+        margin-right: 10rem;
+    }
+    .popup-content {
+        width: 90%;
+    }
+    .form-btn-con .btn {
+        margin: 0 1rem;
+    }
+}
+
+
+/* -- PHONES -- */
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 43.75%;
+    }
+    section {
+        padding: 4rem 0;
+    }
+    .box {
+        padding: 0 4%;
+    }
+    .heading-section {
+        flex-direction: column;
+    }
+    .heading-section-one {
+        display: none;
+    }
+    .heading-section-two {
+        flex-basis: 100%;
+    }
+    nav {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 6rem 0;
+        background-color: var(--color-black);
+        left: 0;
+    }
+    .main-nav {
+        margin-top: 2rem;
+        position: absolute;
+        left: 2%;
+        bottom: 10%;
+    }
+    .main-nav li {
+        margin-left: 2.5rem;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: .5rem;
+    }
+    .sticky {
+        display: block;
+        text-align: center;
+        padding: 6rem 0;
+    }
+    .sticky .logo-link-black {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .sticky .main-nav {
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    }
+    .text-box {
+        transform: translate(-28%, 20%) rotate(-90deg);
+    }
+    .heading-primary-main {
+        font-size: 5rem;
+    }
+    .heading-primary-sub {
+        font-size: 2rem;
+    }
+    .text-box-one {
+        padding: .5rem .5rem;
+        margin-bottom: 0rem;
+    }
+    .heading-secondary {
+        margin-bottom: 0;
+    }
+    .heading-secondary h2 {
+        font-size: 2.8rem;
+        margin-bottom: 3rem;
+    }
+    .heading-secondary h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .section-paragraph {
+        width: 90%;
+        padding: 0;
+    }
+    .facility-content div {
+        width: 90%;
+    }
+    .register-content {
+        padding: 5rem 2rem;
+    }
+    .register-content .heading-tertiary {
+        font-size: 3rem;
+    }
+    .icon-small {
+        font-size: 1.5rem;
+    }
+    .icon-text {
+        font-size: 2rem;
+    }
+    .price {
+        font-size: 6rem;
+        margin-bottom: 7rem;
+    }
+    .price span {
+        font-size: 3.5rem;
+    }
+    .btn:link,
+    .btn:visited {
+        font-size: 2rem;
+        padding: 2rem 6rem;
+        border-radius: 3.5rem;
+        transition: none;
+    }
+    .btn-submit {
+        font-size: 2rem;
+        padding: 2rem 6rem;
+        border-radius: 3.5rem;
+        transition: none;
+    }
+    .gallery-box {
+        gap: 1rem;
+    }
+    .gallery-box-item {
+        height: 15rem;
+    }
+    .item-three {
+        height: 31rem;
+    }
+    .section-bmi .form {
+        width: 90%;
+    }
+    .form .btn:link,
+    .form .btn:visited {
+        font-size: 1.5rem;
+        padding: 2rem 3rem;
+    }
+    .footer-content {
+        padding: 4rem 0;
+    }
+    .footer-list {
+        margin-right: 8rem;
+    }
+    .footer-box-1-of-2:first-child {
+        margin-bottom: 1.5rem;
+    }
+    .footer-copyright {
+        padding: 2rem 0;
+    }
+    .popup-content {
+        width: 95%;
+    }
+    .popup-left {
+        flex-basis: 10%;
+    }
+    .popup-right {
+        flex-basis: 90%;
+    }
+    .popup-right .heading-secondary h2 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    .popup-right .heading-tertiary {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    .close-btn-con {
+        top: 0;
+    }
+    .form .form-btn-con .btn:link,
+    .form .form-btn-con .btn:visited {
+        padding: 2rem;
+    }
+    .form-btn-con .btn {
+        margin: 0 .5rem;
+    }
+}
+
